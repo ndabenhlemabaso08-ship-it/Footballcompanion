@@ -1,5 +1,5 @@
 // Paste your API key inside the quotes below
-const API_KEY = "97d889f1be401805a039a54ce179ad0c;
+const API_KEY = "97d889f1be401805a039a54ce179ad0c";
 
 async function fetchTodayFixtures() {
   const container = document.getElementById("matches-container");

@@ -4,41 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Football Companion</title>
-  <link rel="manifest" href="manifest.json">
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-    body { background-color: #0f172a; color: #f8fafc; padding: 16px; }
-    header { text-align: center; margin-bottom: 20px; }
-    header h1 { color: #38bdf8; font-size: 1.6rem; }
-    header p { color: #94a3b8; font-size: 0.85rem; margin-top: 4px; }
-    
-    .card { background: #1e293b; border-radius: 12px; padding: 16px; margin-bottom: 16px; border: 1px solid #334155; }
-    .teams { display: flex; justify-content: space-between; align-items: center; font-weight: bold; font-size: 1.1rem; }
-    .vs { font-size: 0.8rem; color: #64748b; font-weight: normal; }
-    
-    .probability-bar { background: #334155; height: 10px; border-radius: 5px; margin: 12px 0; overflow: hidden; display: flex; }
-    .prob-home { background: #22c55e; height: 100%; }
-    .prob-draw { background: #eab308; height: 100%; }
-    .prob-away { background: #ef4444; height: 100%; }
-    
-    .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
-    .stat-box { background: #0f172a; padding: 8px; border-radius: 6px; text-align: center; }
-    .stat-val { color: #38bdf8; font-weight: bold; font-size: 0.95rem; }
-    .stat-label { color: #94a3b8; font-size: 0.75rem; }
-    
-    .btn-vip { background: #38bdf8; color: #0f172a; width: 100%; border: none; padding: 12px; border-radius: 8px; font-weight: bold; font-size: 1rem; cursor: pointer; margin-top: 10px; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
     <h1>⚽ Football Companion</h1>
     <p>Your Ultimate Match Stats & Predictions Hub</p>
-  </header
-  <div id="matches-container"></div>
+  </header>
+
+  <main>
+    <div id="matches-container"></div>
+  </main>
+
   <script src="script.js"></script>
-
-  <button class="btn-vip" onclick="alert('Unlock VIP Accumulators & Predictions!')">Unlock Football Companion VIP</button>
-
 </body>
-      </html>
+</html>
